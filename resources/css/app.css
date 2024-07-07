@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.humberger-line{
+    @apply w-[30px] h-[2px] block my-2 bg-white;
+}
+
+.navbar-fixed{
+
+}
+
+.humberger-active > span:nth-child(1){
+    @apply rotate-45;
+}
+.humberger-active > span:nth-child(2){
+    @apply scale-0;
+}
+.humberger-active > span:nth-child(3){
+    @apply -rotate-45;
+}
+
+.icons-home{
+    @apply max-w-[55px] max-h-[55px] m-2 hover:scale-125
+}
+
+.input-profile{
+    @apply max-w-[full] bg-transparent;
+}
+
+.login-form{
+    @apply mx-auto block max-w-[250px] mb-3;
+}
+
+.input-form{
+    @apply py-2 px-3 shadow-md md:shadow-lg border-solid border-2 rounded-lg placeholder:italic placeholder:text-slate-400
+}
+
+.btn-primary{
+    @apply bg-blue-500
+}
+
+.konten-layout{
+    @apply container mx-auto bg-white border-solid rounded-xl
+}
+
+.rotate-icon{
+    @apply rotate-90;
+}
+
+.list-pesanan-waktu{
+    @apply h-[100px] overflow-y-scroll
+}
+
+.konten-layout-admin{
+    @apply bg-white border-[1px] rounded-lg border-slate-400 shadow-xl  px-10 py-10
+}
+
+.border-line{
+    @apply border px-3 py-2
+}
